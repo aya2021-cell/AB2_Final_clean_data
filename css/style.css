@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    position: absolute;
+    z-index: 10;
+    background: white;
+    padding: 8px 12px;
+    margin: 12px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
